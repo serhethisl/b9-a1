@@ -1,0 +1,594 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+menu {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.new-year-party {
+    max-height: 600px;
+    background-image: url(./Assets/new-year-party.png);
+    background-repeat: no-repeat;
+}
+.image-filter {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 177px 0px;
+    border-radius: 16px;
+}
+.Happy-New-Year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.New-Year-Party-Celebration {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+}
+.image-filter .text {
+    max-width: 632px;
+    max-height: 246px;
+    margin: 0 auto;
+}
+.sixty-five-percent-off {
+    max-width: 803px;
+    margin: 0 auto;
+    max-height: 806px;
+    margin-top: 120px;
+}
+.amount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.OUR-HOLIDAY-DEALS-ARE-BETTER {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ALL-CATEGORIES {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.happy-new-year-vector {
+    max-width: 803px;
+    max-height: 500px;
+}
+.happy-new-year-vector img {
+    width: 100%;
+    height: 100%;
+}
+.Welcome-to-midnight-party {
+    max-height: 600px;
+    background-image: url(./Assets/Welcome-to-midnight-party.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+.image-filter-2 {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 68.11px 138px 67.23px 126px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.Welcome-to-midnight-party .LHS {
+    max-width: 697px;
+    max-height: 332px;
+    margin: 57.86px 0px 74.77px 0px;
+}
+.Welcome-to-midnight-party .RHS {
+    max-width: 320px;
+    max-height: 464.66px;
+}
+.Welcome-to-midnight-party .RHS img {
+    width: 100%;
+    height: 100%;
+}
+.Welcome-to-midnight-party .LHS .p1 {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+.Welcome-to-midnight-party .LHS .p2 {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.Welcome-to-midnight-party .LHS .p3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 32px;
+}
+.venue {
+    max-height: 482px;
+    margin-top: 120px;
+    padding: 100px 0px 110px 0px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.venue .text {
+    margin: 0 auto;
+    max-width: 549px;
+    max-height: 272px;
+}
+.place {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.join-now-btn {
+    padding: 16px 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    margin: 0 auto;
+    background: #F00;
+    border: none;
+    margin: 0px 191px;
+}
+.new-year-offer {
+    max-height: 465px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.new-year-offer .LHS {
+    max-width: 393px;
+    max-height: 255px;
+    margin: 104px 0px;
+}
+.new-year-offer .RHS {
+    max-width: 276px;
+    max-height: 353px;
+    margin-top: 112px;
+}
+.new-year-offer .middle {
+    max-width: 463px;
+    max-height: 463px;
+    position: relative;
+}
+.round-border {
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.new-year-offer .middle .picture {
+    max-width: 364.84px;
+    max-height: 364.84px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.new-year-offer .middle .picture img {
+    width: 100%;
+    height: 100%;
+}
+.new-year-offer .LHS .p1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.new-year-offer .LHS .p2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.new-year-offer .LHS .p3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.new-year-offer .RHS .p1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.new-year-offer .RHS .p2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+.new-year-offer .RHS .picture {
+    max-width: 140px;
+    max-height: 140px;
+}
+.holiday-sale {
+    max-height: 986px;
+    margin-top: 118px;
+}
+.holiday-sale .text {
+    max-width: 1068px;
+    max-height: 260px;
+    margin: 0 auto;
+}
+.holiday-sale .bottom .flexset {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.holiday-sale .bottom {
+    max-height: 662px;
+    margin-top: 64px;
+}
+.holiday-sale .bottom .LHS {
+    max-width: 796.5px;
+    max-height: 662px;
+}
+.holiday-sale .bottom .LHS img {
+    width: 100%;
+    height: 100%;
+}
+.holiday-sale .bottom .RHS {
+    max-width: 429px;
+    max-height: 433px;
+    position: relative;
+}
+.holiday-sale .bottom .RHS img {
+    width: 100%;
+    height: 100%;
+}
+.holiday-sale .text .p1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.holiday-sale .text .p2 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.holiday-sale .text .p3 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holiday-sale .discount {
+    max-width: 220.05px;
+    max-height: 220.05px;
+    position: absolute;
+    top: 30%;
+    left: -100px;
+}
+.nulldiv {
+    height: 229px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #F00; 
+    border-radius: 16px 0px 16px 16px; 
+    z-index: -1;
+}
+.Awesome-Portfolio {
+    max-height: 1163px;
+    margin-top: 120px;
+}
+.Awesome-Portfolio .p1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.Awesome-Portfolio .p2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+.Awesome-Portfolio .p3 {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.image-set-1 {
+    max-height: 450px;
+    margin-bottom: 24px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-set-1 .picture {
+    max-width: 424px;
+    max-height: 450px;
+}
+.image-set-1 .picture img {
+    width: 100%;
+    height: 100%;
+}
+.image-set-2 {
+    max-height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-set-2 .picture {
+    max-width: 424px;
+    max-height: 450px;
+}
+.image-set-2 .picture img {
+    width: 100%;
+    height: 100%;
+}
+.Newsletter {
+    max-height: 616px;
+    margin-top: 120px;
+    padding: 80px 0px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.content {
+    margin: 0 auto;
+    max-width: 896px;
+    max-height: 456px;
+}
+.email {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0 auto;
+}
+.email img {
+    width: 100%;
+    height: 100%;
+}
+.Subscribe-Newsletter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+.Subscribe-Dolor-sit {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-bottom: 48px;
+}
+::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.email-field {
+    max-width: 438px;
+    max-height: 72px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #FFF;
+    padding: 25px 267px 25px 30px;
+}
+.Subscribe-here {
+    max-width: 210px;
+    max-height: 72px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #FF0000;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 24px 56px;
+    border: none;
+}
+.btn {
+    display: flex;
+    gap: 0px;
+    margin: 0 auto;
+    max-width: 648px;
+}
+footer {
+    max-height: 609px;
+    background: #070211;
+    padding: 120px 0px;
+}
+footer .top {
+    max-width: 1185px;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer .bottom .LHS {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer .bottom .RHS {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer .bottom {
+    max-width: 1320px;
+    max-height: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.address {
+    width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+footer .top .RHS {
+    max-width: 251px;
+    max-height: 80px;
+}
+footer .top .RHS li .picture img {
+    width: 100%;
+    height: 100%;
+}
+footer .top .RHS li .picture {
+    max-width: 24px;
+    max-height: 24px;
+    margin: 8px 0px;
+}
+footer .top .RHS li {
+    max-width: 251px;
+    display: flex;
+    gap: 16px;
+}
+footer .top .RHS li p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.social .picture img {
+    width: 100%;
+    height: 100%;
+}
+.social .picture {
+    max-width: 64px;
+    max-height: 64px;
+}
+.social {
+    max-width: 328px;
+    max-height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+hr {
+    border-color: rgba(255, 255, 255, 0.15);;
+}
+.orange {
+    color: #F00; 
+}
